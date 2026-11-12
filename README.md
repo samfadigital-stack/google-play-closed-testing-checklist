@@ -11,7 +11,7 @@ A practical, open-source operational checklist, tester participation tracker, an
 
 ## 📌 Background & Requirements
 
-Since November 13, 2023, personal Google Play Developer accounts created on or after that date must complete a closed testing track before applying for production access.
+Since November 13, 2023, personal Google Play Developer accounts created after that date must complete a closed testing track before applying for production access.
 
 The core policy requirements are:
 - At least **12 testers must be actively opted in** to your closed testing track.
@@ -19,7 +19,7 @@ The core policy requirements are:
 - Testers must accept the testing invitation on an Android device via the Google Play Store interface and install the build.
 - After meeting the requirement, the developer submits an application for production access including answers to a review questionnaire.
 
-> **Important:** Completing the 14-day testing period makes you *eligible to apply*, but does not automatically guarantee production access approval. Google's review team evaluates overall app quality, policy compliance, and tester feedback before granting approval.
+> **Important:** Completing the 14-day testing period makes you *eligible to apply*, but does not automatically guarantee production access approval. Google's review team evaluates overall app quality, policy compliance, and tester feedback independently before granting approval.
 
 ---
 
@@ -45,6 +45,7 @@ This repository provides five modular developer resources:
 - [Official Google Play Console Help &mdash; Closed Testing](https://support.google.com/googleplay/android-developer/answer/14151465)
 - [Complete Step-by-Step Closed Testing Guide (SAMFA Digital)](https://samfa.online/guides/google-play-closed-testing-complete-guide/)
 - [12 Testers & 14-Day Requirement Detailed Breakdown](https://samfa.online/guides/google-play-12-testers-14-days/)
+- [Closed Testing for Flutter, React Native, Expo, WebView & AI-Built Apps](https://samfa.online/guides/google-play-closed-testing-flutter-expo-apps/)
 - [Why Google Play May Review or Reject Applications](https://samfa.online/guides/closed-testing-rejection-reasons/)
 - [Closed Testing Frequently Asked Questions](https://samfa.online/guides/google-play-closed-testing-faq/)
 
@@ -52,15 +53,16 @@ This repository provides five modular developer resources:
 
 ## 🤝 Need Testing Cohorts on Physical Android Devices?
 
-For solo developers and small teams lacking access to 12 distinct physical Android hardware devices, [SAMFA Digital](https://samfa.online) organizes managed human tester cohorts across diverse OEM devices (Samsung, Xiaomi, Pixel, OnePlus across Android 10–15) for the full 14-day cycle:
+For solo developers and small teams lacking access to 12 distinct physical Android hardware devices, [SAMFA Digital](https://samfa.online) organizes real human tester cohorts across diverse physical Android devices and operating system versions for a continuous 14-day closed testing cycle:
 
 | Package | Testers | Duration | Price | Highlights |
 |---|---:|---:|---:|---|
-| **Starter** | 12 | 14 days | **$10** | Meets minimum policy threshold on real devices |
-| **Growth** | 16 | 14 days | **$50** | Enhanced hardware buffer against unexpected dropouts |
-| **Scale** | 20 | 14 days | **$100** | Largest cohort with comprehensive qualitative bug feedback |
+| **Starter** | 12 | 14 days | **$10 / app** | Basic physical-device closed testing package |
+| **Growth** | 16 | 14 days | **$50 / app** | Physical Android device closed testing; up to 6 tester feedback items (depends on actual submissions); retesting considered |
+| **Scale** | 20 | 14 days | **Starting at $100 / app** | Physical Android device closed testing; up to 12 tester feedback items (depends on actual submissions); retesting considered; optional custom manual QA quoted separately after app review |
 
-- Flexible payment terms: Milestone payments (50% upfront, 50% on completion) and Pay After Approval options for eligible clients.
+- **Payment terms:** **50/50 Milestone Payments** apply across Starter (`$10`), Growth (`$50`), and the base Scale package (`$100`). **Pay After Approval** is available **only for eligible Starter (`$10`) and Growth (`$50`) orders** (not Scale; maximum of two (2) incomplete or live orders per customer or email address at any given time, with rolling eligibility resetting once both complete; customer eligibility and detailed terms are confirmed via WhatsApp before order confirmation &mdash; [see Terms §7.1–7.2](https://samfa.online/terms/)). Optional custom manual QA payment terms are agreed in writing per separate quotation.
+- **No approval guarantee:** Google Play evaluates app quality and policy compliance independently; SAMFA Digital cannot guarantee production access approval.
 - Direct onboarding and setup consultation: [Contact SAMFA Digital on WhatsApp](https://wa.me/923390667763?text=Hello%20SAMFA%20Digital%2C%20I%20need%20help%20with%20Google%20Play%20Closed%20Testing.%20Please%20share%20your%20packages%20and%20details.)
 
 Website: [https://samfa.online](https://samfa.online)  
