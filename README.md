@@ -28,13 +28,13 @@ The core policy requirements are:
 This repository provides five modular developer resources:
 
 1. **[Master Compliance Checklist (CHECKLIST.md)](CHECKLIST.md):**  
-   Chronological checklist covering App Bundle preparation, track setup, tester recruitment, 14-day active monitoring, and production application.
+   Chronological checklist covering App Bundle preparation, track setup, tester recruitment, 14-day active monitoring, and production application (synced with the [interactive web App Publishing Checklist](https://samfa.online/guides/google-play-app-publishing-checklist/)).
 2. **[Tester Participation Tracking Template (TESTER_TRACKING_TEMPLATE.csv)](TESTER_TRACKING_TEMPLATE.csv):**  
    CSV spreadsheet template to log invited vs. opted-in testers, device models, Android OS versions, and daily activity checks.
 3. **[Production Access Questionnaire Guide (PRODUCTION_QUESTIONNAIRE_GUIDE.md)](PRODUCTION_QUESTIONNAIRE_GUIDE.md):**  
    Practical framework for answering Google Play Console's production access application questions truthfully and thoroughly.
 4. **[Troubleshooting Guide (TROUBLESHOOTING.md)](TROUBLESHOOTING.md):**  
-   Quick diagnostic fixes for common hurdles: Opt-in link 404, testers not counting, 14-day clock resets, and application rejection remediation.
+   Quick diagnostic fixes for common hurdles: Opt-in link 404 / *Item Not Found*, testers not counting, 14-day clock resets, and application rejection remediation.
 5. **[Contributing Guidelines (CONTRIBUTING.md)](CONTRIBUTING.md):**  
    How to contribute additions, corrections, and tool improvements.
 
@@ -43,6 +43,8 @@ This repository provides five modular developer resources:
 ## 🔗 Official Documentation & Educational Guides
 
 - [Official Google Play Console Help &mdash; Closed Testing](https://support.google.com/googleplay/android-developer/answer/14151465)
+- [Google Play App Publishing Checklist (Interactive Web Version)](https://samfa.online/guides/google-play-app-publishing-checklist/)
+- [Tester Feedback & Testing Quality Guide (SAMFA Digital)](https://samfa.online/guides/google-play-tester-feedback-and-testing-quality/)
 - [Complete Step-by-Step Closed Testing Guide (SAMFA Digital)](https://samfa.online/guides/google-play-closed-testing-complete-guide/)
 - [12 Testers & 14-Day Requirement Detailed Breakdown](https://samfa.online/guides/google-play-12-testers-14-days/)
 - [Closed Testing for Flutter, React Native, Expo, WebView & AI-Built Apps](https://samfa.online/guides/google-play-closed-testing-flutter-expo-apps/)
