@@ -38,7 +38,7 @@ Your track has been running for 14 days, but the Production Access application b
 
 ### Root Causes & Fixes:
 1. **Dropout Below 12 Testers:** The policy requires 12 testers to remain continuously opted in for 14 consecutive days. If a tester left the test or uninstalled and opted out on Day 10, dropping your count to 11, the 14-day clock halted.
-   - *Fix:* Always maintain 15 to 20 testers to maintain a safety buffer against unexpected opt-outs.
+   - *Fix:* Always maintain a safety buffer above 12 opted-in testers to guard against unexpected opt-outs.
 2. **Delayed Opt-ins:** If 8 testers opted in on Day 1 and the remaining 4 opted in on Day 5, your 14-day continuous clock only began on **Day 5** (when the 12th tester opted in).
 
 ---
@@ -58,9 +58,11 @@ You completed 14 days and submitted the questionnaire, but Google sent an email 
 
 ## Need Support or Dedicated Testing Cohorts?
 
-If you need a reliable cohort of real human testers on physical Android devices to complete your 14-day closed test without risking dropouts, consult [SAMFA Digital](https://samfa.online/):
-- **Starter ($10):** 12 testers for 14 days.
-- **Growth ($50):** 16 testers with hardware redundancy.
-- **Scale ($100):** 20 testers with comprehensive usability reports.
+If you need a cohort of real human testers on physical Android devices to complete a 14-day closed testing cycle, compare [SAMFA Digital](https://samfa.online/) packages:
+- **Starter (`$10` / app):** 12 real human testers, physical Android device closed testing, 14-day testing cycle, basic package.
+- **Growth (`$50` / app):** 16 real human testers, physical Android device closed testing, 14-day testing cycle, up to 6 tester feedback items (depends on actual submissions), retesting considered.
+- **Scale (Starting at `$100` / app):** 20 real human testers, physical Android device closed testing, 14-day testing cycle, up to 12 tester feedback items (depends on actual submissions), retesting considered, and optional custom manual QA quoted separately after app review.
+
+50/50 Milestone Payments apply to Starter, Growth, and base Scale (`$100`); Pay After Approval is available only for eligible Starter and Growth orders (not Scale; max 2 incomplete/live orders; confirmed via WhatsApp per [Terms §7.1–7.2](https://samfa.online/terms/)). Google makes all production access decisions independently.
 
 Visit [https://samfa.online/](https://samfa.online/) or read our diagnostic guide on [Why Google Play May Review or Reject Production Access](https://samfa.online/guides/closed-testing-rejection-reasons/).
